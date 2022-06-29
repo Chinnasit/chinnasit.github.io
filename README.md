@@ -1,1 +1,0 @@
-# chinnasit.github.io
