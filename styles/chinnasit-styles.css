@@ -12,14 +12,14 @@ body {
 
 h1 {
     font-size: 50px;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px black;
 }
 
 .container {
     border: 6px solid black;
     border-radius: 30px;
     background-color: #e76f51;
-    height: 600px;
+    height: 100%;
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -27,8 +27,10 @@ h1 {
     margin: 0 auto;
 }
 
-p {
+#heading {
+    margin-top: 0;
     margin-left: 15px;
+    color: rgb(7, 7, 206);
 }
 
 a {
@@ -39,4 +41,13 @@ li {
     list-style-type: square;
 }
 
+.popular {
+    border: 4px dotted red;
+}
+
+figure {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
