@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Kanit', sans-serif;
-    color: white;
     box-sizing: border-box;
 }
 
@@ -16,6 +15,7 @@ h1 {
 }
 
 .container {
+    color: white;
     border: 6px solid black;
     border-radius: 30px;
     background-color: #e76f51;
@@ -51,3 +51,88 @@ figure {
     margin-bottom: 10px;
 }
 
+/*iPhone5 portrait*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
+    .container {
+        width: 300px;
+    }
+    .popular {
+        width: 200px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    li {
+        font-size: 15px;
+    }
+    p {
+        font-size: 15px;
+        padding-left: 2px;
+    }
+    figure > img {
+        width: 70%;
+    }
+    p:last-child {
+        font-size: 14px;
+        margin-left: 6px;
+    }
+}
+
+/*iPhone5 landscape*/
+@media screen and (max-device-width: 568px) and (orientation: landscape) {
+    .container {
+        width: 500px;
+    }
+    div > img {
+        width: 59%;
+    }
+    p {
+        font-size: 17px;
+    }
+    #heading {
+        font-size: 17px;
+        text-align: center;
+        margin-left: -2px ;
+    }
+    ul {
+        margin-left: -50px;
+    }
+    li{
+        font-size: 17px;
+    }
+    .popular {
+        width: 350px;
+    }
+    figcaption {
+        font-size: 16px;
+    }
+    p:last-child {
+        font-size: 17px;
+    }
+}
+
+/*ipad air portrait*/
+@media only screen and (min-device-width : 820px) and (max-device-width : 1180px) { 
+    .container {
+        width: 650;
+    }
+    h1 {
+        font-size: 40px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    div > img {
+        width: 40%;
+        height: 40%;
+    }
+    figure img {
+        width: 46%;
+        height: 40%;
+    }
+    p {
+        font-size: 16px;
+    }
+    #heading {
+        margin-bottom: 0px;
+    }
+}
