@@ -272,3 +272,7 @@ input[type=submit] {
     border: none;
     padding: 5px;
 }
+
+a {
+    text-decoration: none;
+}
