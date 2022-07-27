@@ -232,30 +232,43 @@ p {
     padding: 15px;
     color: var(--primary-text-color);
     font-weight: 400;
+    font-size: 14px;
 }
 
-.interest .fa-solid {
-    font-size: 18px;
+.interest .fa-solid, .fas {
+    font-size: 16px;
     width: 20px;
 }
 
 .form {
-    position: relative;
-    top: 600px;
-    left: -600px;
-    margin: 5px;
-}
-
-input[type=button] {
-    background-color: var(--primary-theme-color);
+    background-color: var(--primary-energy-color);
+    border-radius: 10px;
+    padding: 10px;
     color: white;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 16px 16px;
-    border: none;
-    border-radius: 15px;
+    display: flex;
+    justify-content: center;
 }
 
-.fa-github, .fa-brands {
+.fa-github, .fa-linkedin {
     color: var(--primary-text-color);
+}
+
+.inputForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+input[type=text] {
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+}
+
+input[type=submit] {
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
 }
