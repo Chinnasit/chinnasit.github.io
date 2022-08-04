@@ -12,6 +12,7 @@ body {
 h1 {
     font-size: 50px;
     text-shadow: 2px 2px black;
+    text-align: center;
 }
 
 .container {
@@ -54,43 +55,49 @@ figure {
 /*iPhone5 portrait*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
     .container {
-        width: 300px;
+        width: 250px;
     }
     .popular {
-        width: 200px;
+        width: 90%;
     }
     h1 {
-        font-size: 40px;
+        font-size: 30px;
+    }
+    ul {
+        margin-top: 0;
     }
     li {
-        font-size: 15px;
+        font-size: 12px;
     }
-    p {
-        font-size: 15px;
-        padding-left: 2px;
+    #heading {
+        font-size: 12px;
     }
     figure > img {
-        width: 70%;
+        width: 75%;
+    }
+    figcaption {
+        font-size: 10px;
     }
     p:last-child {
-        font-size: 14px;
+        font-size: 12px;
         margin-left: 6px;
+        margin-top: 0;
     }
 }
 
 /*iPhone5 landscape*/
 @media screen and (max-device-width: 568px) and (orientation: landscape) {
     .container {
-        width: 500px;
+        width: 425px;
     }
     div > img {
-        width: 59%;
+        width: 55%;
     }
-    p {
-        font-size: 17px;
+    figure > img {
+        width: 68%;
     }
     #heading {
-        font-size: 17px;
+        font-size: 15px;
         text-align: center;
         margin-left: -2px ;
     }
@@ -98,16 +105,16 @@ figure {
         margin-left: -50px;
     }
     li{
-        font-size: 17px;
+        font-size: 15px;
     }
     .popular {
-        width: 350px;
+        width: 100%;
     }
     figcaption {
         font-size: 16px;
     }
     p:last-child {
-        font-size: 17px;
+        font-size: 15px;
     }
 }
 

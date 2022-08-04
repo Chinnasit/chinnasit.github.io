@@ -25,7 +25,7 @@ function isPrime(n) {
 
 function showPrimes(num) {      
     let primesNumber = [];
-    for (let i = 2; i < num; i++) {         //Note: continue เป็นการสั่งให้ "วนลูปถัดไป" โดยไม่ทำคำสั่งที่เหลือในลูปนั้น (ข้ามการทำงานในครั้งนั้น)
+    for (let i = 2; i < num; i++) {      //Note: continue เป็นการสั่งให้ "วนลูปถัดไป" โดยไม่ทำคำสั่งที่เหลือในลูปนั้น (ข้ามการทำงานในครั้งนั้น)
         if (!isPrime(i)) {
             continue; 
         }         
